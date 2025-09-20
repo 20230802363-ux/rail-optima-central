@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        danger: {
+          DEFAULT: "hsl(var(--danger))",
+          foreground: "hsl(var(--danger-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -84,6 +96,22 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "rail-pulse": "pulse 2s ease-in-out infinite",
+        "train-scan": "train-scan 3s infinite",
+        "status-pulse": "status-pulse 2s ease-in-out infinite",
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-dashboard': 'var(--gradient-dashboard)',
+        'gradient-status': 'var(--gradient-status)',
+        'gradient-warning': 'var(--gradient-warning)',
+        'gradient-danger': 'var(--gradient-danger)',
+      },
+      boxShadow: {
+        'rail': 'var(--shadow-rail)',
+        'alert': 'var(--shadow-alert)',
+        'danger': 'var(--shadow-danger)',
+        'glow': 'var(--shadow-glow)',
       },
     },
   },
